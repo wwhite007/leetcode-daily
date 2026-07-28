@@ -3,3 +3,4 @@ for j in range(max(i - max_len, 0), i):
     dp[i] = (dp[j] and (s[j:i] in wordDict))
 这一步是真的难想，我在这里已经把时间复杂度压到了最低。
 那我这个max就很精髓。
+大致思路是考虑s[0:i]的子问题，然后开始拆分。
