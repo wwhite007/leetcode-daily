@@ -12,3 +12,4 @@ def lower_bound(nums, target):
 
     return left
 这里是找到第一个大于等于target位置的模板。
+详情见笔记.
